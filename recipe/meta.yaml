@@ -26,6 +26,8 @@ requirements:
     - numba >=0.48
     - xarray >=0.15.0
     - pooch >=0.7.0
+    - pyyaml
+    - numpy >=1.17.0
 
 test:
   imports:
