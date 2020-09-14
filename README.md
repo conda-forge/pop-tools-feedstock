@@ -5,7 +5,7 @@ Home: https://github.com/NCAR/pop-tools
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Tools to support analysis of POP2-CESM model solutions with xarray
 
@@ -119,4 +119,6 @@ Feedstock Maintainers
 =====================
 
 * [@andersy005](https://github.com/andersy005/)
+* [@matt-long](https://github.com/matt-long/)
+* [@mnlevy1981](https://github.com/mnlevy1981/)
 
