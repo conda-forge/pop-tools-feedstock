@@ -1,5 +1,5 @@
 {% set name = "pop-tools" %}
-{% set version = "2020.4.30" %}
+{% set version = "2020.9.14" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 521ca97a506725509298cdabb54219473c69317d883949a239fdb7f26c7bb298
+  sha256: b383b18ba7feaed2965c1e7c742785ea44b082147fae03d311a216e125c284fa
 
 build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
