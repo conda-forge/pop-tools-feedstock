@@ -5,9 +5,13 @@ Home: https://github.com/NCAR/pop-tools
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pop-tools-feedstock/blob/master/LICENSE.txt)
 
 Summary: Tools to support analysis of POP2-CESM model solutions with xarray
+
+Development: https://github.com/NCAR/pop-tools
+
+Documentation: https://pop-tools.readthedocs.io
 
 Tools to support analysis of the [Parallel Ocean Program v2(POP2)](http://www.cesm.ucar.edu/models/cesm1.0/pop2/doc/sci/POPRefManual.pdf)
 -- the ocean component of CESM -- model solutions with xarray.
