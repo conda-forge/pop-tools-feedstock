@@ -1,5 +1,5 @@
 {% set name = "pop-tools" %}
-{% set version = "2023.3.0" %}
+{% set version = "2023.6.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pop-tools-{{ version }}.tar.gz
-  sha256: 0b7d0a74a722a4ccc465a81ac6f062c317d0ced95702e4a1113a9c8c68b9bf3d
+  sha256: 0543b21bdf67765641c5ddad150e7870f3b3f7f098a41aa75c761867b9003c66
 
 build:
   number: 0
