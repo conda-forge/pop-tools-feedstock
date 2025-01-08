@@ -7,18 +7,18 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pop-tools-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pop-tools-{{ version }}.tar.gz
   sha256: 0543b21bdf67765641c5ddad150e7870f3b3f7f098a41aa75c761867b9003c66
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python {{ python_min }}
     - setuptools >=30.3.0
     - setuptools_scm
   run:
@@ -26,7 +26,7 @@ requirements:
     - numba >=0.52
     - numpy >=1.17.0
     - pooch >=1.3.0
-    - python >=3.7
+    - python >={{ python_min }}
     - pyyaml >=5.3.1
     - xarray >=0.16.1
 
@@ -37,6 +37,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/NCAR/pop-tools
